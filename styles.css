@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar{
+    background-color: rgb(159, 159, 159);
+    width: 15vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sidebar nav{
+    padding: 29px;
+}
+
+.sidebar nav li{
+    list-style-type: none;
+    font-size: 20px;
+    margin: 50px 0;
+}
+
+.main{
+    /*background-color: pink;*/
+    width: 85vw;
+    display: flex;
+    align-items: center; /* centered across vertical axis */
+    justify-content: center; /* centered across horizontal axis */
+}
+
+.infocontainer{
+    /*background-color: pink;*/
+    height:78vh;
+    width:80vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.hello{
+    font-size: 70px;
+}
+
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about{
+    font-size: 40px;
+}
+
+.buttons button{
+    
+}
+
+.devPic img{
+    height: 78vh;
+}
